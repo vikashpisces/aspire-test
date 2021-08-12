@@ -1,0 +1,103 @@
+.row, .column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d {
+  &-flex {
+    display: flex;
+  }
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text {
+  &-primary {
+    color: #01D167;
+  }
+
+  &-muted {
+    color: #fff;
+    opacity: 0.3;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-white {
+    color: #fff;
+  }
+  &-size {
+    &-small {
+      font-size: 0.9rem;;
+    }
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: #01D167;
+  }
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.bolder {
+  font-weight: 500;
+}
+
+.boldest {
+  font-weight: 600;
+}
+
+.font {
+  &-smallest {
+    font-size: 0.7rem;
+  }
+  &-smaller {
+    font-size: 0.8rem;
+  }
+  &-small {
+    font-size: 0.9rem;
+  }
+  &-normal {
+    font-size: 1rem;
+  }
+}
+
+.font-medium {
+  font-size: 1.5rem;
+}
+
+.font-large {
+  font-size: 1.8rem;
+}
+
+.font-larger {
+  font-size: 2rem;
+}
+
+.font-largest {
+  font-size: 3rem;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-dark {
+  background: #0C365A;
+}
