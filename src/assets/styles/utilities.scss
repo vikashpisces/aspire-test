@@ -72,6 +72,23 @@
   &-normal {
     font-size: 1rem;
   }
+
+  &-family {
+    &-opensans {
+      &-regular {
+        font-family: OpenSans-Regular, sans-serif;
+        font-weight: 400;
+      }
+      &-semibold {
+        font-family: OpenSans-SemiBold, sans-serif;
+        font-weight: 600;
+      }
+      &-bold {
+        font-family: OpenSans-Bold, sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
 .font-medium {

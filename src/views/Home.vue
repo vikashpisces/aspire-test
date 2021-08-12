@@ -11,7 +11,8 @@
         <el-menu-item 
           v-for="menu in menuList"
           :key="menu.id"
-          :index="''+menu.id">
+          :index="''+menu.id"
+          class="font-family-opensans-regular">
           <template #title>
             <img class="menu-icon" :src="`/img/${menu.iconFile}.svg`" />
             <span class="menu-title">{{menu.title}}</span>
@@ -56,6 +57,7 @@ export default {
       &-item {
         width: 101%;
         padding-left: 3rem !important;
+        font-size: 1rem;
         .menu-icon {
           margin-right: 1rem;
         }

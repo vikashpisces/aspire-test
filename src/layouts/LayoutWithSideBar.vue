@@ -3,7 +3,7 @@
     <el-aside width="25%" class="side-bar__left-drawar bg-dark">
       <section class="brand cursor-pointer" @click="handleBrandClick">
         <img :src="logoSrc" class="app-logo" />
-        <div class="tag-line text-muted font-15">
+        <div class="tag-line text-muted font-15 font-family-opensans-regular">
           {{tagline}}
         </div>
       </section>
@@ -43,7 +43,9 @@ export default {
     .brand {
       height: 150px;
       padding: 3rem;
-
+      .tag-line {
+        margin-top: 1.2rem;
+      }
     }
     &__content {
       height: 100%;

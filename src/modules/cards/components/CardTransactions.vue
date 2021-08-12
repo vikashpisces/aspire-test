@@ -9,14 +9,14 @@
         <div class="transaction-overview">
           <img class="vendor-logo" :src="`/img/${txn.vendorLogo}.svg`" />
           <div class="txn-detail">
-            <div class="vendor-name">{{txn.vendor}}</div>
-            <div class="txn-date">{{txn.txnDate}}</div>
-            <div class="txn-about">
+            <div class="vendor-name font-family-opensans-semibold">{{txn.vendor}}</div>
+            <div class="txn-date font-family-opensans-regular">{{txn.txnDate}}</div>
+            <div class="txn-about font-family-opensans-semibold">
               <img src="/img/business-and-finance.svg"/>
               <span style="white-space: nowrap;">{{txn.txnAbout}}</span>
             </div>
           </div>
-          <div class="txn-amount">
+          <div class="txn-amount font-family-opensans-bold">
             <span v-if="txn.amount >= 0" class="positive">+ S$ {{txn.amount}}</span>
             <span v-else-if="txn.amount < 0" class="negative">- S$ {{txn.amount * -1}}</span>
           </div>
@@ -26,7 +26,7 @@
       <div> More details coming soon</div>
     </el-collapse-item>
   </el-collapse>
-  <div class="view-more-transaction">
+  <div class="view-more-transaction font-family-opensans-semibold">
     View all card transactions
   </div>
 </template>

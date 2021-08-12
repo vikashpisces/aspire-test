@@ -1,9 +1,9 @@
 <template>
   <div class="card-module-header">
-    <label class="header-title text-size-small">Available balance</label>
+    <label class="header-title text-size-small font-family-opensans-regular">Available balance</label>
     <div class="header-actions items-center">
-      <span class="currency-tag text-white bg-primary">$$</span>
-      <span class="currency-value boldest">3,000</span>
+      <span class="currency-tag text-white bg-primary font-family-opensans-bold">S$</span>
+      <span class="currency-value font-family-opensans-bold">3,000</span>
       <el-button class="btn-add-card text-white" size="mini">
         <div class="btn-custom-content d-flex items-center">
           <img src="/img/box.svg" />
@@ -25,6 +25,7 @@ export default {
 .card-module-header {
   .header-actions {
     display: flex;
+    margin-top: 0.8rem;
     .currency-tag {
       display: block;
       width: 40px;

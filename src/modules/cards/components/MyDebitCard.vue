@@ -18,7 +18,7 @@
                 <template #title>
                   <div class="custom-collapse-header">
                     <img :src="item.logo"/>
-                    <span class="accordion-title">{{item.label}}</span>
+                    <span class="accordion-title font-family-opensans-regular">{{item.label}}</span>
                     <img class="arrow" src="img/up-arrow.svg" v-if="activeAccordion !== item.name"/>
                     <img class="arrow" src="img/down-arrow.svg" v-else/>
                   </div>

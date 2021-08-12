@@ -3,18 +3,18 @@
     <el-button type="text" class="show-card-num-btn">
       <div class="d-flex items-center">
         <img src="/img/remove_red_eye-24px.svg" /> 
-        <span @click="toggleCardNumber"> Show card number</span>
+        <span @click="toggleCardNumber" class="font-family-opensans-bold"> Show card number</span>
       </div>
     </el-button>
     <div class="asset-logo"></div>
-    <div class="card-holder-name font-medium  boldest">{{detail.cardHolderName}}</div>
-    <div class="card-number">
+    <div class="card-holder-name font-medium font-family-opensans-bold">{{detail.cardHolderName}}</div>
+    <div class="card-number font-family-opensans-bold">
       <template v-for="(digit, index) in cardNumber" :key="`digit-${index}-${digit}`">
         <span class="digit masked" v-if="digit === '.'"></span>
         <span class="digit font-small" v-else>{{digit}}</span>
       </template>
     </div>
-    <div class="validation-data font-smallest">
+    <div class="validation-data font-smallest font-family-opensans-bold">
       <span class="expiry">{{expiry}}</span>
       <div class="cvv-data">
         <span>CVV:</span>

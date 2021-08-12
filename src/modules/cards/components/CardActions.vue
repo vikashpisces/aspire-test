@@ -6,7 +6,7 @@
       v-for="action in cardActions" 
       :key="action.id">
       <img :src="action.logo" class="action-logo"/>
-      <p class="font-smaller action-title">{{action.title}}</p>
+      <p class="font-smaller action-title font-family-opensans-regular">{{action.title}}</p>
     </div>
   </div>
 </template>
