@@ -1,3 +1,31 @@
+/* Works on Firefox */
+* {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  &:hover {
+    scrollbar-width: thin;
+    scrollbar-color: #c1c1c1 #f2f2f2;
+
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    *::-webkit-scrollbar-track {
+      background: #f2f2f2;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      background-color: #c1c1c1;
+      border-radius: 20px;
+      border: 3px solid #f2f2f2;
+    }
+  }
+}
+
+
 .row, .column {
   display: flex;
   flex-wrap: wrap;

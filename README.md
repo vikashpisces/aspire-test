@@ -21,13 +21,14 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests (To Be completed)
+### Run your unit tests (ToDo)
 ```
 npm run test:unit
 ```
 
-### Element Plus For reference
-```
 
+## Element Plus - Used as UI framework
 https://element-plus.org/#/en-US
-```
+
+## Demo at 
+https://aspire-css-challenge.netlify.app/
