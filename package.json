@@ -8,7 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "mocky": "json-server --watch ./src/server/db.json -p 3000"
+    "mocky": "json-server --watch ./src/server/database/db.json -p 3000"
   },
   "dependencies": {
     "axios": "^0.21.1",

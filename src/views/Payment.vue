@@ -1,21 +1,21 @@
 <template>
-  <div class="home-view">
-    <home-module />
+  <div class="card-view">
+    <card-module />
   </div>
 </template>
 
 <script>
-import HomeModule from '@/modules/home'
+import CardModule from '@/modules/cards'
 export default {
-  name: 'HomeView',
+  name: 'CardView',
   components: {
-    HomeModule
+    CardModule
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.home-view {
+.card-view {
   width: 100%;
   height: auto;
   margin-bottom: 1.5rem

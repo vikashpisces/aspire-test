@@ -25,6 +25,14 @@ class HTTPClient {
   get (url) {
     return this.client.get(url)
   }
+
+  post (url, data) {
+    return this.client.post(url, data)
+  }
+
+  put (url, data) {
+    return this.client.put(url, data)
+  }
 }
 
 export default new HTTPClient()
